@@ -7,7 +7,7 @@ import time
 ## ACD - 
 ## JIRA Mass User Lifecycle Scripts Script ##
 
-# This script retrieves a JIRA Admin API key from a password manager, reads a list of user account IDs
+# This script retrieves a JIRA Admin API key from a secrets manager, reads a list of user account IDs
 # from a file called ids.txt that is in the same directory as the script, and disables each account using the Atlassian API. 
 # It provides progress updates and error messages, and summarizes the total number of accounts successfully disabled.
 # The 'ids.txt' file must have one account ID per line to work.
